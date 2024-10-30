@@ -76,8 +76,8 @@ document.addEventListener("DOMContentLoaded", function () {
     ResumeButton.textContent = "Download CV";
     ResumeButton.addEventListener("click", function () {
       const link = document.createElement("a");
-      link.href = "Resume.pdf";
-      link.download = "Resume.pdf";
+      link.href = "resume.pdf";
+      link.download = "resume.pdf";
       link.click();
     });
     Resumeli.appendChild(ResumeButton);
